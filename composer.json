@@ -1,0 +1,28 @@
+{
+  "name": "pavel-ekt/git-wrapper",
+  "description": "provides a simple way to work with git shell commands",
+  "keywords": [
+    "shell",
+    "git",
+    "wrapper",
+    "git-wrapper"
+  ],
+  "homepage": "https://github.com/pavel-ekt/git-wrapper",
+  "license": "BSD-3-Clause",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Pavel Chernoskutov",
+      "email": "pavel-ekt@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">= 5.4",
+    "pavel-ekt/shell-wrapper": "1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PavelEkt\\Wrappers\\": "src"
+    }
+  }
+}
